@@ -32,7 +32,7 @@ function OtherServices() {
 
         <div className="service-card">
           <div className="service-content">
-            <img src="/assets/feature5.png" alt="Globe Animation" />
+            <img src={`${process.env.PUBLIC_URL}/assets/feature5.png`} alt="Globe Animation" />
           </div>
           <h3>Chatbot development</h3>
           <p>
@@ -43,7 +43,7 @@ function OtherServices() {
 
         <div className="service-card">
           <div className="service-content">
-            <img src="/assets/feature2.png" alt="Graph" />
+            <img src={`${process.env.PUBLIC_URL}/assets/feature2.png`} alt="Graph" />
           </div>
           <h3>Business consulting</h3>
           <p>

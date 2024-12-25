@@ -88,7 +88,7 @@ function FeaturesSection() {
         "Continue requesting as many revisions or updates as you wish, and transform your business into a worldwide industry leader.",
       content: (
         <div className="globe-animation">
-          <img src="/assets/feature5.png" alt="Globe Animation" />
+          <img src={`${process.env.PUBLIC_URL}/assets/feature5.png`} alt="Globe Animation" />
         </div>
       ),
     },

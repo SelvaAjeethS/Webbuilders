@@ -36,28 +36,28 @@ function Testimonials() {
             review: "WebBuilder's chatbot is an absolute game-changer for our customer service, absolutely amazing!",
             name: "Sarah Johnson",
             position: "CXO - Doodle",
-            avatar: "/assets/avatar1.png",
+            avatar: `${process.env.PUBLIC_URL}/assets/avatar1.png`,
         },
         {
             quote: "We're delighted with our website subscription from WebBuilder's.",
             review: "The website their team made us is revolutionizing our business. Now, we're generating more than ever!",
             name: "Peter Davis",
             position: "CTO - Atomic",
-            avatar: "/assets/avatar2.png",
+            avatar: `${process.env.PUBLIC_URL}/assets/avatar2.png`,
         },
         {
             quote: "Their design exceeded our expectations.",
             review: "The WebBuilder team provided us with an eye-catching and efficient design for our website.",
             name: "Alice Walker",
             position: "CMO - BrightCo",
-            avatar: "/assets/avatar1.png",
+            avatar: `${process.env.PUBLIC_URL}/assets/avatar1.png`,
         },
         {
             quote: "Our website's performance improved by 54%.",
             review: "Can't thank WebBuilder enough, they absolutely transformed our website into a productive machine!",
             name: "Mark Taylor",
             position: "CEO - Real Estate",
-            avatar: "/assets/avatar2.png",
+            avatar: `${process.env.PUBLIC_URL}/assets/avatar2.png`,
         },
     ];
 

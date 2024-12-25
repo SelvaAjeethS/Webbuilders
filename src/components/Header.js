@@ -8,7 +8,7 @@ function Header() {
       <Container className="text-center">
         <Navbar.Brand href="#home" className="fw-bold text-white">
           <img
-            src="/assets/logo.avif"
+            src={`${process.env.PUBLIC_URL}/assets/logo.avif`}
             alt="WebBuilders Logo"
             width="50"
             height="50"
