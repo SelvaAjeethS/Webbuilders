@@ -2,6 +2,11 @@
   background-color: transparent !important;
 }
 
+.text-center {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .nav-link-hover:hover {
   outline: 1px solid #7f56d9;
   border-radius: 10px;
