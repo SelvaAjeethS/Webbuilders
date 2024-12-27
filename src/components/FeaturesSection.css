@@ -14,18 +14,21 @@
   color: #7f56d9;
 }
 
-.features-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
+.features-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
 }
 
 .feature-card {
+  flex: 1 1 calc(33.333% - 1rem);
   border: 1px solid #2c2c2c;
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(34, 32, 32, 0.4);
   transition: transform 0.3s ease;
+  box-sizing: border-box;
 }
 
 .feature-card:hover {
@@ -112,8 +115,13 @@
 }
 
 .globe-animation img {
+  display: block;
+  margin: 0 auto;
   width: 100%;
-  border-radius: 50%;
+  max-width: 415px;
+  height: auto;
+  background-position: center;
+  overflow: hidden;
 }
 
 
@@ -121,5 +129,12 @@
   .section-title {
     font-size: 4rem !important;
     margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .feature-card {
+    flex: 1 1 100%;
+    max-width: 90%;
   }
 }

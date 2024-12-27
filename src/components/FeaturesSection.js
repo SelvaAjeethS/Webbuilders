@@ -99,10 +99,12 @@ function FeaturesSection() {
       <h2 className="section-title">
         Our <span className="highlight1">process</span>
       </h2>
-      <div className="features-grid">
+      <div className="features-flex">
         {features.map((feature) => (
           <div className="feature-card" key={feature.id}>
+            <div className="feature-content-container">
             <div className="feature-content">{feature.content}</div>
+            </div>
             <h3>{feature.number}<span>{feature.title}</span></h3>
             <p>{feature.description}</p>
           </div>
